@@ -1,0 +1,16 @@
+.img-tecnologias-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+  }
+  
+  .img-tecnologias {
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: contain;
+  }
+.texto-central{
+    margin-left: 100px;
+    margin-right: 100px;
+}

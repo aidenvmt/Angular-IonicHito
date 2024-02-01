@@ -1,0 +1,47 @@
+ion-card {
+  display: inline-block;
+  width: 45%;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+#contenedor {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(106, 106, 219);
+  padding-top: 50px;
+}
+
+#nombre {
+  color: aliceblue;
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+#rol_container {
+  margin-top: 10px;
+}
+
+#rol {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+#foto_container img {
+  display: flex;
+  justify-content: center;
+  max-width: 100%; /* Agregamos esta línea para limitar el ancho de la imagen */
+  height: auto; /* Esto permite que la altura se ajuste automáticamente */
+}
+
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

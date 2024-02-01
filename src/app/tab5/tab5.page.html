@@ -1,0 +1,41 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Contacto</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">tab5</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <h1 style="text-align: center">Datos de Contacto</h1>
+  <div id="formulario_contenedor">
+    <ion-list>
+      <ion-item id="email">
+        <ion-input
+          type="email"
+          label="Email"
+          label-placement="floating"
+          fill="solid"
+          placeholder="Introduce email"
+        >
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input
+          id="password"
+          label="Contraseña"
+          type="password"
+          label-placement="floating"
+          fill="outline"
+          placeholder=" Introduce la contraseña"
+        >
+        </ion-input>
+        <input type="submit" value="Enviar" id="submit" />
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>

@@ -1,0 +1,68 @@
+#contenedor{
+    // border: 2px solid black;
+    margin: 0px;
+}
+
+#hola{
+    color: black;
+}
+
+#contenedor_cabecera{
+    // border: 2px solid blue;
+    // padding: 9%;
+    background-color: #242127;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#titulo_portfolio{
+    color: white;
+    font-weight: bold;
+    font-size: 300%;
+    margin-top: 15%;
+}
+
+#imagen_cabecera{
+    margin-left: 10%;
+    width: 40%;
+    // background-image: url("../../assets/imagen_cara_david.jpg");
+}
+
+#wordpress_titulo{
+    font-size: 200%;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#contenedor_wordpress{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#img_wordpress_atopyk, #img_wordpress_opinion, #img_wordpress_ajhome{
+    height: 150px;
+}
+
+#img_wordpress_opinion, #img_wordpress_ajhome{
+    padding: 10px;
+}
+
+#titulo_card_wordpress{
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+}
+
+#contenido_card_wordpress{
+    font-size: 15px;
+    color: #6A6A6A;
+}
+
+#card_wordpress{
+    padding: 10px;
+}
+
+#boton_wordpress{
+    width: 50%;
+    margin-left: 25%;
+}
